@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta author="Kaique">
+		<title>Fale conosco - Pet Shop Cão Feliz</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<header>
+			
+			<div class="box">  
+				<h1>
+					<img width="150px" src="Imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
+				</h1>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href='servicos.html'>Serviços</a>
+						</li>
+						<li>
+							<a href="fale-conosco.html">Fale Conosco</a> 
+						</li>
+					</ul>
+				</nav>
+			</div>
+			
+		</header>
+		<main>
+			
+			<form>
+				
+				<label for="name">Nome:</label>
+				<input type="text" id='name'class="input-text" required>
+
+				<label for="mail">E-mail:</label>
+				<input type="email" id="mail" class="input-text" required>
+
+				<label for="cell">Celular:</label>
+				<input type="tel" id="cell" class="input-text" required>
+
+				<label for="messenge">Mensagem:</label>
+				<textarea cols="70" rows="10" id="messenge" class="input-text" required></textarea>
+
+				<fieldset>
+
+					<legend>Como podemos entrar em contato com você ? </legend>
+					
+					<label for="radio-whatsapp">
+						<input type="radio" name="contact" id="radio-whatsapp" value="Whatsapp" checked>Whatsapp.
+					</label>
+					
+					<label for="radio-e-mail">
+						<input type="radio" name="contact" id="radio-e-mail" value="E-mail">E-mail.
+					</label>
+
+					<label for="radio-celular">
+						<input type="radio" name="contact" id="radio-celular" value="Celular">Celular.
+					</label>
+
+					<label class="checkbox">
+						<input type="checkbox" id="news" checked="">Quero receber alertas promocionais!
+					</label>
+
+
+				</fieldset>
+
+
+
+				<input type="submit" value="Enviar!" class="enviar">
+			</form>
+
+			<table>
+				<tr>
+					<th>Segunda a Sexta</th>
+					<th>Sábado</th>
+					<th>Domingo</th>
+				</tr>
+				
+				<tr>
+					<td>6h ~ 20h</td>
+					<td>10h ~ 18</td>
+					<td>12h ~ 18h</td>
+				</tr>
+			</table>
+		</main>
+		<footer>
+			
+			<img width="150px" src="Imagens/logo-pet-shop.png" alt="Logo do Pet Shop">
+
+			<p>&copy Copyright 2022</p>
+		</footer>
+
+	</body>
+</html>
